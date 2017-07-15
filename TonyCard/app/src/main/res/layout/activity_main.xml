@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ballons" />
+
+    <TextView
+        android:id="@+id/happy_birthday_text"
+        android:text="Happy Birthday"
+        android:textSize="48sp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="80dp"
+        android:paddingBottom="40dp"/>
+
+    <TextView
+        android:text="Tony!"
+        android:textSize="48sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy_birthday_text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Love, Emily"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#1B5E20"
+        android:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" />
+
+
+
+</RelativeLayout>
